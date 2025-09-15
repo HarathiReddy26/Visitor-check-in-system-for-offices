@@ -1,0 +1,43 @@
+Phase 1: Problem Understanding & Industry Analysis
+Project: Visitor Check-In System for Offices
+
+1. Requirement Gathering
+
+Currently, many offices rely on manual paper registers or spreadsheets to track visitor check-ins and check-outs.
+Receptionists record details manually, which often leads to errors, missing information, and delays in notifying
+employees when their guests arrive. Requirements gathered from stakeholders include:
+
+Simple check-in form for receptionists
+ Automatic notification to host employees
+Ability to log check-in and check-out times
+A digital record for security purposes
+Reports and dashboards to analyze visitor trends
+
+2. Stakeholder Analysis
+
+Receptionist: Needs an easy system to log visitor details quickly.
+Visitors: Expect a smooth check-in process without delays.
+Host Employee: Should receive immediate notification when their visitor arrives.
+HR/Security Team: Require accurate visitor history for audits and security compliance.
+ Management: Wants insights into visitor patterns for resource planning.
+
+3. Business Process Mapping
+
+Current Process (Manual): Visitor arrives → Receptionist writes details in a paper register → Receptionist calls the
+ host → Data remains scattered in registers → Difficult to track trends.
+Proposed Process (Salesforce App): Visitor arrives → Receptionist logs details into Salesforce form → System 
+auto-notifies host employee → Visitor’s check-in/out stored digitally → Reports and dashboards provide real-time insights.
+
+4. Industry-Specific Use Case Analysis
+
+In industries like IT services, consulting, and manufacturing, visitor tracking is critical for security and compliance.
+ Offices often face challenges in managing visitor logs efficiently. Larger organizations use expensive visitor management
+ software, but smaller offices require a lightweight, cost-effective, and easy-to-use solution—something Salesforce can
+ deliver quickly with minimal customization.
+
+5. AppExchange Exploration
+
+A search on Salesforce AppExchange shows apps like CHECK-in and Visitor Management solutions. These apps often include
+ advanced features such as QR codes, badge printing, and mobile integration. However, these may be too complex or costly
+ for small offices. This project focuses on building a simpler, custom Salesforce solution with only essential
+ features: check-in/out logging, notifications, and basic dashboards.
