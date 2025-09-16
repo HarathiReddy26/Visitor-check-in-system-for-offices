@@ -1,0 +1,90 @@
+Phase 2: Org Setup & Configuration Completion Document
+Project: Visitor Check-In System for Offices
+
+1. Salesforce Edition
+
+Edition used: Developer Edition
+Verified org supports required objects, apps, and dashboards.
+
+
+2. Company Profile Setup
+
+Company information added:Name, Address, Default Currency, Default Language, Default Locale
+Company profile verified in Setup → Company Information
+
+
+3. Business Hours & Holidays
+
+Business hours defined for the company.
+Public holidays added for accurate case and visit time calculations.
+
+4. Fiscal Year Settings
+
+Standard Fiscal Year (January – December) selected.
+Fiscal year settings verified.
+
+5. User Setup & Licenses
+
+Users created with appropriate Salesforce Licenses.
+Example: HARATHI ASWARTHAGARI – System Administrator.
+Email, role, and profile assigned.
+
+
+6. Profiles
+
+System Administrator Profile verified with access to all objects.
+Field-level security configured for sensitive fields like Visitor Email, ID Proof Number.
+
+
+7. Roles
+
+Role hierarchy created:
+System Administrator → Manager → Employee
+Users assigned to appropriate roles for record access.
+
+
+8. Permission Sets
+
+Permission set Visitor Object Access created.
+Assigned to System Administrator to allow full access to Visitor Object.
+
+
+9. Organization-Wide Defaults (OWD)
+
+Visitor object default sharing set to Private.
+Verified record visibility for assigned users.
+
+
+10. Sharing Rules
+
+Created sharing rules to allow managers and relevant users access to visitor records.
+Verified that rules reflect intended record visibility.
+
+
+11. Login Access Policies
+
+Login access policies enabled to allow admin login for support and troubleshooting.
+
+
+12. Visitor Object Configuration
+
+Visitor object created and fields added:
+Visitor Name, Email, Phone Number, ID Proof Number, Gender, Age, Check-In/Check-Out Time, Host Employee, Purpose of Visit, Visit Duration
+Visitor tab created for easy access.
+Page layout verified with all fields visible and arranged logically.
+
+
+13. Reports & Dashboards
+
+Custom report type created for Visitor object.
+Sample Visitor report created to track visit details.
+Report verified with correct fields and filters.
+
+
+
+14. Deployment & Sandbox
+
+Configurations tested in Developer Org / Sandbox before final setup.
+Verified object creation, permission sets, and reports are functioning correctly.
+
+
